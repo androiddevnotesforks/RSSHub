@@ -618,6 +618,10 @@ See docs of the specified route and `lib/config.js` for detailed information.
     -   `EH_IGNEOUS`: The value of `igneous` in the cookie header after logging in ExHentai. If this value is set, RSS will be generated from ExHentai
     -   `EH_IMG_PROXY`: Cover proxy address. If this is set, the link to the cover image will be replaced with this value at the beginning. When using ExHentai, the cover image requires cookies to access it, so you can use this with a cookie-added proxy server to access the cover image without cookies in some readers.
 
+-   Fantia
+
+    - `FANTIA_COOKIE`: The `cookie` after login can be obtained by viewing the request header in the console, If not filled in will cause some posts that require login to read to get exceptions
+    
 -   GitHub: [Access Token application](https://github.com/settings/tokens)
 
     -   `GITHUB_ACCESS_TOKEN`: GitHub Access Token
@@ -715,3 +719,7 @@ See docs of the specified route and `lib/config.js` for detailed information.
         -   `YOUTUBE_CLIENT_ID`: YouTube API OAuth 2.0 client ID
         -   `YOUTUBE_CLIENT_SECRET`: YouTube API OAuth 2.0 client secret
         -   `YOUTUBE_REFRESH_TOKEN`: YouTube API OAuth 2.0 refresh token. Check [this gist](https://gist.github.com/Kurukshetran/5904e8cb2361623498481f4a9a1338aa) for detailed instructions.
+
+-   ZodGame:
+
+    -   `ZODGAME_COOKIE`: Cookie of ZodGame User
