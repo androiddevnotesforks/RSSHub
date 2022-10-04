@@ -75,7 +75,7 @@
     "tosource": "2.0.0-alpha.3",
     "unified": "9.2.2",
     "vuepress": "1.9.7",
-    "vuepress-plugin-meilisearch": "0.12.2",
+    "vuepress-plugin-meilisearch": "0.12.4",
     "vuepress-plugin-sitemap": "2.3.1",
     "yorkie": "2.0.0"
   },
@@ -106,7 +106,7 @@
     "ioredis": "5.2.3",
     "ip-regex": "4.3.0",
     "is-localhost-ip": "2.0.0",
-    "jsdom": "20.0.0",
+    "jsdom": "20.0.1",
     "json-bigint": "1.0.0",
     "json5": "2.2.1",
     "koa": "2.13.4",
